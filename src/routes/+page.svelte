@@ -13,7 +13,7 @@
 
 <div>
 	<div class="">
-		<div class="">
+		<!-- <div class="">
 			<Hero />
 		</div>
 
@@ -31,7 +31,7 @@
 
 		<div class="my-10">
 			<Mobile />
-		</div>
+		</div> -->
 
 		<div class="my-10">
 			<Links />

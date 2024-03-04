@@ -46,7 +46,7 @@
 </script>
 
 <div class="bg-base-100 sticky top-0 shadow-lg z-40">
-    <div class="flex items-center justify-center py-10">
+    <div class="flex items-center justify-center py-5 border-b-2 border-black-500">
         <div class="">
             <p class="text-center">Shop digital gift cards for every occasion.</p>
 
@@ -54,17 +54,18 @@
     </div>
 	<div class="flex items-center justify-between p-2 lg:container lg:mx-auto">
 		<div class="">
-			<a href="/" class="font-bold text-primary text-xl">CryptoGiftCards</a>
+
+			<a href="/" class="font-bold text-primary text-xl"><img fetchpriority="high" src="https://wpdemo.triple-a.io/wp-content/uploads/2022/10/crypto-dark.svg" class="logo dark-logo w-250 h-30" alt="CryptoGiftCards">
+            </a>
 		</div>
 		<div class="">
-			<a href="/" class="font-bold text-primary text-xl">CryptoGiftCards</a>
+			<a href="/" style="margin-left:-60px" class="font-bold text-primary text-xl">Shop</a>
 		</div>
 
-		<div class="">
-			<div class="dropdown dropdown-hover dropdown-end">
-				<!-- svelte-ignore a11y-label-has-associated-control -->
+		<div  class="">
+
+			<!-- <div class="dropdown dropdown-hover dropdown-end">
 				<label class="btn">Theme</label>
-				<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
 				<ul tabindex="0" class="dropdown-content menu p-2 shadow bg-base-100 h-96 overflow-scroll">
 					<form method="POST" use:enhance={submitUpdateTheme}>
 						{#each themes as theme}
@@ -76,7 +77,10 @@
 						{/each}
 					</form>
 				</ul>
-			</div>
+			</div> -->
+            <label class="btn btn-primary">My Account</label>
+            <a href="/cart"><label  class="btn btn-primary">Cart</label></a>
+
 		</div>
 	</div>
 </div>
