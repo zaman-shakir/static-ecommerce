@@ -6,7 +6,7 @@
 					"link": "https://wpdemostaging.wpengine.com/product/nike-digital-gift-card/",
 					"pubDate": "Fri, 04 Nov 2022 13:20:53 +0000",
                     "image_link" : "https://wpdemo.triple-a.io/wp-content/uploads/2022/11/Group-50-300x190.png",
-
+                    "price" : "9.99",
 					"creator": {
 						"__prefix": "dc",
 						"__cdata": "depedocobe5517"
@@ -579,7 +579,8 @@
 						"__cdata": "depedocobe5517"
 					},
                     "image_link" : "https://wpdemo.triple-a.io/wp-content/uploads/2022/11/Group-50-300x190.png",
-					"guid": {
+					"price" : "14.99",
+                    "guid": {
 						"_isPermaLink": "false",
 						"__text": "https://tripleawpdemo.wpengine.com/?post_type=product&p=4194"
 					},
@@ -1159,6 +1160,7 @@
 						"__cdata": "depedocobe5517"
 					},
                     "image_link" : "https://wpdemo.triple-a.io/wp-content/uploads/2022/11/Group-73-300x190.png",
+					"price" : "16.99",
 
 					"guid": {
 						"_isPermaLink": "false",

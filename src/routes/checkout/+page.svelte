@@ -5,29 +5,29 @@
 <div>
     <div class="py-16 px-4 md:px-6 2xl:px-0 flex justify-center items-center 2xl:mx-auto 2xl:container">
 <!--- more free and premium Tailwind CSS components at https://tailwinduikit.com/ --->
-        <div class="flex flex-col justify-start items-start w-full space-y-9">
+        <div class="flex flex-col justify-center items-center w-full space-y-9">
             <div class="flex justify-start flex-col items-start space-y-2">
-                <button class="flex flex-row items-center text-gray-600 dark:text-white hover:text-gray-500 space-x-1">
-                    <svg class="fill-stroke" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M2.91681 7H11.0835" stroke="currentColor" stroke-width="0.666667" stroke-linecap="round" stroke-linejoin="round" />
-                        <path d="M2.91681 7L5.25014 9.33333" stroke="currentColor" stroke-width="0.666667" stroke-linecap="round" stroke-linejoin="round" />
-                        <path d="M2.91681 7.00002L5.25014 4.66669" stroke="currentColor" stroke-width="0.666667" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                    <p class="text-sm leading-none">Back</p>
-                </button>
                 <p class="text-3xl lg:text-4xl font-semibold leading-7 lg:leading-9 text-gray-800 dark:text-gray-50">Checkout</p>
-                <p class="text-base leading-normal sm:leading-4 text-gray-600 dark:text-white">Home > Electronics > Headphones > Cart > Checkout</p>
             </div>
 
             <div class="flex flex-col xl:flex-row justify-center xl:justify-between space-y-6 xl:space-y-0 xl:space-x-6 w-full">
-                <div class="xl:w-3/5 flex flex-col sm:flex-row xl:flex-col justify-center items-center bg-gray-100 dark:bg-gray-800 py-7 sm:py-0 xl:py-10 px-10 xl:w-full">
-                    <div class="flex flex-col justify-start items-start w-full space-y-4">
-                        <p class="text-xl md:text-2xl leading-normal text-gray-800 dark:text-gray-50">Logitech K251</p>
-                        <p class="text-base font-semibold leading-none text-gray-600 dark:text-white">$520.00</p>
+                <div class="xl:w-3/5 flex flex-col sm:flex-row xl:flex-col justify-start items-start bg-gray-100 dark:bg-gray-800 py-7 sm:py-0 xl:py-10 px-10 xl:w-full">
+                    <div class="mb-5">
+                        <p class="text-xl font-bold">Billing Details</p>
                     </div>
-                    <div class="mt-6 sm:mt-0 xl:my-10 xl:px-20 w-52 sm:w-96 xl:w-auto">
+                    <div class="flex flex-row justify-start items-start w-full">
+                        <input type="text" placeholder="First name" class="input input-bordered w-full mr-5 " />
+                        <input type="text" placeholder="Last name" class="input input-bordered w-full ml-5 " />
+                    </div>
+
+                    <div class="flex flex-col justify-start items-start w-50">
+                    </div>
+                    <div class="flex flex-col justify-start items-start w-full mt-5">
+                        <input type="email" placeholder="Email" class="input input-bordered w-full " />
+                    </div>
+                    <!-- <div class="mt-6 sm:mt-0 xl:my-10 xl:px-20 w-52 sm:w-96 xl:w-auto">
                         <img src="https://i.ibb.co/0GFzTP4/Rectangle-131.png" alt="headphones" />
-                    </div>
+                    </div> -->
                 </div>
 
                 <div class="p-8 bg-gray-100 dark:bg-gray-800 flex flex-col lg:w-full xl:w-3/5">

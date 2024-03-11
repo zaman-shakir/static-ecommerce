@@ -11,7 +11,7 @@
 	import Card from '$lib/components/Card.svelte';
 </script>
 
-<div>
+<div class="bg-base-100">
 	<div class="">
 		<!-- <div class="">
 			<Hero />
@@ -33,7 +33,7 @@
 			<Mobile />
 		</div> -->
 
-		<div class="my-10">
+		<div class="">
 			<Links />
 		</div>
 	</div>
